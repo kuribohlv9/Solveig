@@ -3,27 +3,23 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\spr_test</sprite>
-    <sprite>sprites\sprite2</sprite>
-  </sprites>
+  <sprites name="sprites"/>
   <backgrounds name="background">
-    <background>background\bg_floor</background>
-    <background>background\bg_tex</background>
+    <background>background\bg_test_01</background>
+    <background>background\bg_ball_shad</background>
+    <background>background\bg_paddle_shad</background>
+    <background>background\bg_temp</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\model_2.gml</script>
-    <script>scripts\model_3.gml</script>
+    <script>scripts\scr_compare_angles.gml</script>
+    <script>scripts\createFromObj.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_game</object>
-    <object>objects\object1</object>
-    <object>objects\obj_model_2</object>
-    <object>objects\obj_model_3</object>
+    <object>objects\obj_model_01</object>
+    <object>objects\obj_camera_01</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
